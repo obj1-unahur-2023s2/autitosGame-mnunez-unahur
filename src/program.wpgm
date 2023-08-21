@@ -1,0 +1,22 @@
+import wollok.game.*
+import auto.*
+
+program miPrimerWollokGame {
+	
+	game.title("Jueguito del coso")
+	
+	// límites del tablero de juego
+	game.width(14)
+	game.height(8)
+	game.cellSize(50)
+	
+
+	// fondo del tablero de juego
+	game.boardGround("empedrado.jpg")
+
+	// agregamos a nuestro objeto auto
+	game.addVisual(auto)
+
+	// que arranque el juego!
+	game.start()
+}
