@@ -8,11 +8,11 @@ program miPrimerWollokGame {
 	// límites del tablero de juego
 	game.width(14)
 	game.height(8)
-	game.cellSize(50)
+//	game.cellSize(50)
 	
 
 	// fondo del tablero de juego
-	game.boardGround("empedrado.jpg")
+	game.boardGround("assets/empedrado.jpg")
 
 	// agregamos a nuestro objeto auto
 	game.addVisual(auto)

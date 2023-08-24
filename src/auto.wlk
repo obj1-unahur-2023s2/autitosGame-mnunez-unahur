@@ -2,7 +2,7 @@ import wollok.game.*
 
 object auto {
 	// definimos los atributos para imagen y posición de nuestro elemento
-	var image = "autitoRojo.png"
+	var image = "assets/autos/autitoRojo.png"
 	var position = game.origin()
 
 	// definimos los getter y setter para poder preguntarle y cambiarle 
